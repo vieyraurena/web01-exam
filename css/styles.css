@@ -10,6 +10,24 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  color: #d3001c;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-right: 0;
+}
+
+h3 {
+  color: #8c0013;
+  text-transform: capitalize;
+  margin: 0 0 16px 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
 /*healpears*/
 .clearfix::after {
   content: "";
@@ -50,16 +68,89 @@ a {
 }
 
 .nav-list li + li {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .nav-list a {
   color: #676766;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: uppercase; 
 }
 
 /*main content*/
+.paragraph {
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+.paragraph p {
+  color: #666666;
+}
+
+.main-box {
+  margin-left: 30px;
+}
+
+.content-box {
+  margin: 20px;
+}
+
+.box {
+  float: left;
+  width: 440px;
+  height: 347px;
+  background-color: #f5f3f3;
+  border: 1px solid #dad8d8;
+  margin-bottom: 60px;
+}
+
+.box h5 {
+  color: #707070;
+  font-style: italic;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.box p {
+  color: #313131;
+}
+
+.p1 {
+  display: inline;
+}
+
+.box img {
+ float: right;
+ margin-left: 52px;
+}
+
+.box + .box {
+  margin-left: 18px;
+
+}
+
+.footer {
+  width: 960px;
+  height: 78px;
+  background-color: #f5f3f3;;
+}
+
+.footer p {
+  color: #d3001c;
+  margin: 0;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
